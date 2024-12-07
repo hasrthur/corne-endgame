@@ -38,6 +38,60 @@
         };
     };
 
+    combos {
+        compatible = "zmk,combos";
+
+        LeftBracket {
+            bindings = <&kp LEFT_BRACKET>;
+            key-positions = <31 32>;
+        };
+
+        RightBracket {
+            bindings = <&kp RIGHT_BRACKET>;
+            key-positions = <32 33>;
+        };
+
+        LeftParen {
+            bindings = <&kp LEFT_PARENTHESIS>;
+            key-positions = <19 20>;
+        };
+
+        RightParen {
+            bindings = <&kp RIGHT_PARENTHESIS>;
+            key-positions = <20 21>;
+        };
+
+        Copy {
+            bindings = <&kp LG(C)>;
+            key-positions = <25 26>;
+        };
+
+        Paste {
+            bindings = <&kp LG(V)>;
+            key-positions = <26 27>;
+        };
+
+        Cut {
+            bindings = <&kp LG(X)>;
+            key-positions = <26 28>;
+        };
+
+        Hash {
+            bindings = <&kp HASH>;
+            key-positions = <3 15>;
+        };
+
+        Percent {
+            bindings = <&kp PERCENT>;
+            key-positions = <5 17>;
+        };
+
+        Dollar {
+            bindings = <&kp DOLLAR>;
+            key-positions = <4 16>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
