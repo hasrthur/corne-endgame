@@ -63,12 +63,12 @@
 
         Copy {
             bindings = <&kp LG(C)>;
-            key-positions = <25 26>;
+            key-positions = <26 27>;
         };
 
         Paste {
             bindings = <&kp LG(V)>;
-            key-positions = <26 27>;
+            key-positions = <27 28>;
         };
 
         Cut {
